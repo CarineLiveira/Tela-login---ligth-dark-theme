@@ -1,0 +1,37 @@
+:root {
+    --light-50: #ffff;
+   
+    --dark-50: #C84771;
+    --dark-100: #3c106150;
+
+    --change-50: #E26A2C;
+    --change-100:#ffa774;
+    --change-900: #FDA65D;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+#container{
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;
+    background: url(./assets/backgroundImg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
